@@ -1,0 +1,14 @@
+
+#Ideas for data sources:
+
+    PRISM Climate Group
+        http://www.prism.oregonstate.edu/
+        
+    Applied Climate Information System (ACIS)
+        https://www.rcc-acis.org/index.html
+        
+    
+      
+    
+     
+
