@@ -1,4 +1,6 @@
 
+# Pumkin Problem 
+
 Here's an agricultural take on sort algorithms. You have a field with say, 200 pumpkins. 
 You are going to harvest all of the pumpkins but you only want to take the biggest 20 pumpkins to the fair.
 Simple, sort the pumpkins from smallest to largest and take the biggest pumpkins to the fair.
@@ -13,11 +15,7 @@ pumpkins than others. So if you just took the top 10% from each field, you would
 Ideally, you would harvest all of the pumpkins then sort them from smallest to largest, then separate off the 
 top 10%. But you don't have enough room in your farm yard to do that. 
 
-We could rank all of the pumpkins in wagon 1. Then take one pumpkin out of a wagon 2 and find out where it would fit
-in among the ranks of wagon 1. Do that with each pumpkin in wagon 2. Now you only have to have a key for each pumpkin, and 
-hold 200 pumpkins + 1 at any given time. Once you have assigned every pumpkin a rank size relative to all of the pumpkins
-in wagon 1, you keep all of the pumpkins that are ranked in among the top 10 percent of wagon 1 and discard the rest. 
-Now you have kept a bunch of pumpkins that you know are at least in the top 10 percentile of wagon 1 and have eliminated a bunch
-of pumpkins that you know are definitely are not. You still have a bunch of pumpkins that are not in the top overall 10 percentile but you have eliminated a bunch of pumpkins that are definitely not in the top 10 percentile while only looking at 201 pumpkins at any given moment. 
-
+Something you could do with a computer but not by hand, repeated random sample and rank to learn the range
+of weights in the top ten percent. Then apply that range on the entire population. This approximation method
+can be tested against an actual known population to get an unbiased estimator.
 
