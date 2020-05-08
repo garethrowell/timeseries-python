@@ -1,0 +1,7 @@
+
+Here's an agricultural take on sort algorithms. You have a big field with say, 1000 pumpkins. 
+You are going to harvest all of the pumpkins but you only want to take the biggest 100 pumpkins to the fair.
+Simple, sort the pumpkins from smallest to largest and take the biggest pumpkins to the fair.
+
+Now, imagine you have an unknown number of pumpkins in farm that has 9 separate fields all planted to pumpkins. 
+You want to harvest all of the pumpkins but you will only sell the top 10% for Halloween pumpkins.
