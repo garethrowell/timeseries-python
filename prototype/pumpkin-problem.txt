@@ -1,5 +1,5 @@
 
-# Pumkin Problem 
+# Pumpkin Problem 
 
 Here's an agricultural take on sort algorithms. You have a field with say, 200 pumpkins. 
 You are going to harvest all of the pumpkins but you only want to take the biggest 20 pumpkins to the fair.
