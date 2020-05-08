@@ -10,4 +10,27 @@ You want to harvest all of the pumpkins but you will only sell the biggest 10% a
 You have a wagon that can haul about a 200 pumpkins which is about the amount from one field. So you are going 
 to fill the wagon about 9 times, each time with about 200 pumpkins. How do you identify the top 10%?
 
-You would need the total number to know how many would make the top 10%. But you have to sort each field as you go. 
+This is the problem. The pumpkins from the different fields aren't from the same population, some fields produce bigger
+pumpkins than others. So if you just took the top 10% from each field, you would not have the top 10% of all fields combined. 
+Ideally, you would harvest all of the pumpkins then sort them from smallest to largest, then separate off the 
+top 10%. But you don't have enough room in your farm yard to do that. You are required to sort them in batches of 200.
+
+You could create a hash with a unique id for each pumpkin and its weight, then sort the weights and 
+flag to top 10 percentile. So now, instead of pumpkins, you are just using a hash. You still can't identify
+the top 10 percentile until you have weighed every pumpkin. But you don't have to weigh all of the pumpkins at once. 
+You can do that one wagon at a time. 
+
+Combining separate hashes. You still need to combine all of your weights then sort the weights to get the 
+top 10%. But now, you only need the keys to select the actual pumpkins. 
+
+Nine wagons
+Wagon no. 1          2          3           4           5          6           7           8          9
+Median    6          8         14           3           5          27          32         14          6
+Min       2          3         11           1           1          5           6          5           7
+Max       10        14         15           7           9          38          42         23          12
+
+Because of the min/max values, we know most of the wagons overlap in weight distribution. So within wagon ranking 
+hasn't helped at all. How can we rank all of them without looking at them all at once?
+
+We could rank all of the pumpkins in wagon 1. Then take one pumpkin out of a wagon 2 and find out where it would fit
+in among the ranks of wagon 1. 
