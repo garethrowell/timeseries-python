@@ -31,4 +31,10 @@ Because of the min/max values, we know most of the wagons overlap in weight dist
 hasn't helped at all. How can we rank all of them without looking at them all at once?
 
 We could rank all of the pumpkins in wagon 1. Then take one pumpkin out of a wagon 2 and find out where it would fit
-in among the ranks of wagon 1. 
+in among the ranks of wagon 1. Do that with each pumpkin in wagon 2. Now you only have to have a key for each pumpkin, and 
+hold 200 pumpkins + 1 at any given time. Once you have assigned every pumpkin a rank size relative to all of the pumpkins
+in wagon 1, you keep all of the pumpkins that are ranked in among the top 10 percent of wagon 1 and discard the rest. 
+Now you have kept a bunch of pumpkins that you know are at least in the top 10 percentile of wagon 1 and have eliminated a bunch
+of pumpkins that you know are definitely are not. You still have a bunch of pumpkins that are not in the top overall 10 percentile but you have eliminated a bunch of pumpkins that are definitely not in the top 10 percentile while only looking at 201 pumpkins at any given moment. 
+
+
