@@ -6,11 +6,12 @@ Basically, the procedure is to develop estimates, through bootstrapping, of the 
 
 # To do:
 
-1) Create a prototype ("mock-up") that runs on simulated temperature data using where x is the day and y is the weather parameter: 
+1) Create a prototype ("mock-up") that runs on simulated temperature data using the linear equation below, 
+  where x is the day and y is the simulated weather parameter: 
 
            a*cos(x) + b*sin(x) + random(e) = y
 
-2) Download low-res daily PRISM data.
+2) Download low-res daily PRISM data for Glacier Bay.
 
 
 
