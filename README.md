@@ -1,6 +1,10 @@
 # spike-farm
 
-Focus on numpy and pandas to process large climate datasets to identify when high temperature spikes have occurred across landscapes. Focus on matplotlib and Seaborn to visualize results. Temperature spikes to be identified by determining WHEN the top decile of tmaxs occur. Develop massive sequential SORTs across chunks of data. 
+Focus on numpy and pandas to process large climate datasets to identify when spikes in tmax, tmin and precip have occurred. Focus on matplotlib and Seaborn to visualize results. Temperature spikes to be identified by determining WHEN, for example, the top decile of tmaxs occur. 
+
+Basically, the procedure is to develop estimates, through bootstrapping, of the 10th and 90th percentile boundaries, then use these estimates to filter all of the data in the sampled population.
+
+The prototype ("mock-up") runs on  
 
 
 
