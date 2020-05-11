@@ -4,7 +4,7 @@ Focus on numpy and pandas to process large climate datasets to identify when spi
 
 Basically, the procedure is to develop estimates, through bootstrapping, of the 10th and 90th percentile boundaries, then use these estimates to filter all of the data in the sampled population.
 
-#To do
+# To do:
 
 1) Create a prototype ("mock-up") that runs on simulated temperature data using where x is the day and y is the weather parameter: 
 
