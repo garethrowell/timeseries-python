@@ -15,7 +15,5 @@ pumpkins than others. So if you just took the top 10% from each field, you would
 Ideally, you would harvest all of the pumpkins then sort them from smallest to largest, then separate off the 
 top 10%. But you don't have enough room in your farm yard to do that. 
 
-Something you could do with a computer but not by hand, repeated random sample and rank to learn the range
-of weights in the top ten percent. Then apply that range on the entire population. This approximation method
-can be tested against an actual known population to get an unbiased estimator.
+Something you could do with a computer but not by hand, repeated random sampling with replacement (bootstrapping) and rank to learn the range of weights in the top ten percent. Then apply that range on the entire population. This approximation method can be tested against an actual known population to get an unbiased estimator.
 
