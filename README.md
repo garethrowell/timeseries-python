@@ -1,17 +1,20 @@
-# spike-farm
+# timeseries-python
 
-Focus on numpy and pandas to process large climate datasets to identify when spikes in tmax, tmin and precip have occurred. Focus on matplotlib and Seaborn to visualize results. Temperature spikes to be identified by determining WHEN, for example, the top decile of tmaxs occur. 
+This project explores the application of supervised ML in Python to complex real-world time series data. The sample data used throughout this project is a .csv download of climate data from the Alaska Climate Research Center Station called Glacier Bay.
 
-Basically, the procedure is to develop estimates, through bootstrapping, of the 10th and 90th percentile boundaries, then use these estimates to filter all of the data in the sampled population.
 
-# To do:
 
-1) Create a prototype ("mock-up") that runs on simulated temperature data using the linear equation below, 
-  where x is the day and y is the simulated weather parameter: 
 
-           a*cos(x) + b*sin(x) + random(e) = y
 
-2) Download low-res daily PRISM data for Glacier Bay.
+
+
+# To do
+
+1. Need to acquire metadata for Glacier Bay ACIS data. 
+
+2. Write some scripts to clean up the data and create a Julian data starting at 1/01/1990 and running through 12/31/2019.
+
+
 
 
 
