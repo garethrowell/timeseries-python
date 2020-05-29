@@ -1,6 +1,6 @@
 # timeseries-python
 
-This project explores the application of supervised ML in Python to create forecast models from complex real-world timeseries data. The sample data used throughout this project is a .csv download of climate data from the Alaska Climate Research Center Station at Glacier Bay, AK. 
+This project explores the application of supervised ML in Python to create forecast models from complex real-world time series data. The sample data used throughout this project is a .csv download of climate data from the Alaska Climate Research Center Station at Glacier Bay, AK. 
 
 
 
