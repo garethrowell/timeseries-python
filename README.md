@@ -2,7 +2,9 @@
 
 This project explores the application of supervised ML in Python to create forecast models from complex real-world time series data. The sample data used throughout this project is a .csv download of climate data from the Alaska Climate Research Center Station at Glacier Bay, AK. 
 
-What would a numpy array look like for managing climate data? Structured array
+What would a numpy array look like for managing climate data? An empty container (structured array) might look something like
+
+glba_tmax = np.zeros(
 
 
 
